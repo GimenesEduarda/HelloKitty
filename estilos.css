@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/originals/dc/12/c8/dc12c8629ff2c1330a2270047616e8d8.gif'); /* URL do GIF */
+    background-size: cover; /* Cobre toda a tela */
+    background-position: center; /* Centraliza o fundo */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative; /* Permite posicionar elementos filhos */
+    max-width: 800px;
+    margin: 60px auto; /* Aumenta a margem superior */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 250px; /* Aumenta o tamanho da imagem */
+    margin: 20px auto; /* Centraliza a imagem */
+    display: block; /* Faz a imagem ser exibida como um bloco */
+    border: 2px solid #ff69b4; /* Borda rosa */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px; /* Espaçamento interno */
+    background-color: white; /* Fundo branco atrás da imagem */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ff69b4;
+    margin: 0 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.hello-kitty {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff69b4; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1493; /* Cor do botão ao passar o mouse */
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc; /* Linha superior */
+}
